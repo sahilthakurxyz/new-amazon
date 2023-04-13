@@ -1,0 +1,67 @@
+.checkout{
+    display: flex;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.checkout__ad{
+    margin-top: 0;
+    width: 95%;
+    height: 80px;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    box-shadow: 1px 2px 3px  rgb(155, 166, 170);
+}
+.checkout__title {
+    margin-top: 8px;
+    margin-left: 15px;
+    color: rgb(135, 146, 142);
+    padding: 10px;
+    border-bottom:2px solid lightgray;
+    font-size :30px;
+    font-weight: 500;
+    cursor:zoom-in;
+}
+.user__login{
+    border: 1px solid black;
+    width: 250px;
+    height: 60px;
+    background-color: lightgray;
+    cursor: pointer;
+   color: #5e4444;
+    box-shadow: 2px 2px 10px 1px rgba(140, 85, 85, 0.6);
+    border-radius: 13px;
+    margin-left: 8px;
+}
+.user__login:hover{
+    border: 1px solid black;
+    width: 250px;
+    height: 60px;
+    background-color: lightgray;
+    cursor: pointer;
+   color: blue;
+    box-shadow: 2px 2px 10px 1px rgba(140, 85, 85, 0.6);
+    border-radius: 13px;
+    margin-left: 8px;
+    background-color: #fff;
+}
+.user__login >p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.user__login >p:hover{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid;
+    padding: 5px;
+    margin: 10px;
+}

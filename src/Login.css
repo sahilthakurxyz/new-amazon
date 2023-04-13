@@ -1,0 +1,84 @@
+.login{
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.login__logo{
+    
+    margin-top: 20px;
+    /* margin-bottom: 20px;  */
+    background-color: #111;
+    object-fit: contain;
+    width: 100px;
+    padding: 5px 2px 5px 2px;
+    border-radius: 8px;
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+.login__container{
+   width: 300px;
+   height: fit-content; 
+   border: 1px solid lightgray;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   margin: 12px;
+}
+.login__container> h2{
+font-size: 20px;
+font-weight: 500;
+}
+.login__container > form > h5 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.login__container input {
+width: 95%;
+height: 30px;
+margin-bottom: 10px;
+border-radius: 5px;
+/* border: none; */
+background-color: #fff;
+}
+.login__container .login__sinup{
+background-color: #f0c14b;
+border-radius: 3px;
+height: 30px;
+margin-top: 10px;
+width: 100%;
+border: 1px solid;
+border-color: #a88734 #9c7e31  #844a29;
+
+}
+.login__Registeration{
+    height: 30px;
+    width: 100%;
+    border: px solid;
+    margin-top: 10px;
+    border-radius: 3px;
+    border-color: darkgray;
+}
+.login__container > p{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.new_to_amazon{
+    color: lightgray;
+    display: flex;
+   margin: 15px;
+}
+.new_to_amazon > .f__dash{
+    position:relative;
+    top: -8px ;
+    margin: 2px;
+}
+.new_to_amazon > .s__dash{
+    position: relative;
+    top: -8px ;
+    margin: 2px;
+}
