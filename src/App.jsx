@@ -42,9 +42,8 @@ function App() {
   }, []);
   return (
     <div className="app">
-      <Router>
-        <Routes>
-          <Route
+      <Routes>
+      <Route
             path="/login"
             element={
               <>
@@ -52,9 +51,6 @@ function App() {
               </>
             }
           />
-        </Routes>
-
-        <Routes>
           <Route
             path="/"
             element={
@@ -65,9 +61,7 @@ function App() {
               </>
             }
           />
-        </Routes>
-        <Routes>
-          <Route
+           <Route
             path="/checkout"
             element={
               <>
@@ -77,7 +71,44 @@ function App() {
               </>
             }
           />
-        </Routes>
+      </Routes>
+
+      {/* <Router> */}
+        {/* <Routes>
+          <Route
+            path="/login"
+            element={
+              <>
+                <Login />
+              </>
+            }
+          />
+        </Routes> */}
+
+        {/* <Routes> */}
+          {/* <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <HomeHeader />
+                <Home />
+              </>
+            }
+          /> */}
+        {/* </Routes> */}
+        {/* <Routes> */}
+          {/* <Route
+            path="/checkout"
+            element={
+              <>
+                <Header />
+
+                <Checkout />
+              </>
+            }
+          /> */}
+        {/* </Routes> */}
         {/* <Routes>
           <Route
             path="/payment"
@@ -90,7 +121,7 @@ function App() {
             }
           />
         </Routes> */}
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }
